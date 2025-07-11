@@ -5,6 +5,8 @@
 }
 
 body {
+  margin: 0 auto;
+  width: 1440px;
   font-family: 'Segoe UI', sans-serif;
   background: #f9faff;
   color: #1a1a1a;
@@ -152,4 +154,8 @@ footer {
 }
 .my:hover{
     background-color: tomato;
+    cursor: pointer;
+}
+.card p{
+  display: inline-block;
 }
