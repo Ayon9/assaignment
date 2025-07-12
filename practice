@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<style>
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1140px;
+    height: 698px;
+    background-image: url(./Hero-bg.png);
+    margin: 0 auto;
+}
+nav{
+    width: 1140px;
+    height: 151px;
+    display: flex;
+    justify-content: space-between;
+}
+.sign{
+    width: 132px;
+    height: 48px;
+    background-color: #4E47FF;
+    margin: 20px;
+    padding: 0;
+    border-radius: 5px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.sta{
+    margin: 38px auto;
+}
+h2{
+    margin: 20px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+</style>
+<body>
+    <header class="header">
+    <nav>
+        <h2>Logo</h2>
+        <button class="sign"><a href="https://commicplan.com" target="_blank">sign up</a></button>
+    </nav>
+    <div class="content">
+        <h1>Cool Dark UI Template for Webflow Agencies!</h1>
+        <button class="sta sign"><a href="">Stay Focused</a></button>
+    </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
